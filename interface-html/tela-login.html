@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Consulta Online</title>
+    <meta charset ="utf-8"/>
+    <style>
+        body{
+            font-family: Arial;
+            background-image: linear-gradient(50deg, aquamarine, white);
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.8);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: white;
+        }
+        input{
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+        .registrar{
+            background-color: lightslategrey;
+            border: none;
+            padding: 10px;
+            color: white;
+            font-size: 15px;
+            
+        }
+        .entrar{
+            background-color: dodgerblue;
+            border: none;
+            padding: 10px;
+            color: white;
+            font-size: 15px;
+        }
+        button:hover{
+            background-color:black;
+        }
+
+    </style>
+
+</head>
+<body>
+        <div>
+            <h1>Login</h1>
+            <input type ="text" placeholder ="Usuário" />
+            <br><br>
+            <input type ="password" placeholder ="Senha"/>
+            <br><br>
+            <button class="entrar">Entrar</button>
+            <button class="registrar">Registrar-se</button>
+        </div>
+</body>
+</html>
